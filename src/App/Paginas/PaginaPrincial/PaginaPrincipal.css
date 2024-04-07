@@ -1,0 +1,106 @@
+.login_page {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-image: linear-gradient(to bottom right, #0073E6, #012141);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: rgba(0, 115, 230, 0.3);
+    height: 648px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 50%;
+    gap: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    position: relative;
+    top: -70px;
+    animation: logo-animation 2s ease-in-out;
+    margin: 150px auto;
+    margin-bottom: 0;
+}
+
+@keyframes logo-animation {
+    0% {
+        transform: translateY(-50px) rotate(-360deg);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+}
+.input {
+    border: 2px solid #012141;
+    border-radius: 10px;
+    width: 1288px;
+    height: 82px;
+    padding: 10px;
+    background-color: #0073E6;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.input:hover {
+    background-color: #0056b3;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.input:focus {
+    outline: none;
+    border-color: #0073E6;
+    box-shadow: 0 0 10px #0073E6;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: red;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.link {
+    text-decoration: none;
+}
