@@ -18,7 +18,7 @@ export default function HomePage() {
       setApi(inputValue);
       console.log(api)
       return (
-        <Link className="link" to="/HomePage">
+        <Link className="link" to="/PaginaConta">
           <button className="btn" type="submit">
             Entrar
           </button>

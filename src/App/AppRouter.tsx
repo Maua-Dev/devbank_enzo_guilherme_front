@@ -1,13 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import LoginPage from "../App/Paginas/PaginaPrincial/PaginaPrincipal";
-import HomePage from "../App/Paginas/PaginasHome/PaginaHome";
+import PaginaPrincipal from "../App/Paginas/PaginaPrincial/PaginaPrincipal";
+import PaginaConta from "./Paginas/PaginaConta/PaginaConta";
+import Deposito from "./Paginas/Deposito/Deposito"; 
+// import Retirada from "./Paginas/PaginaConta/PaginaConta"; 
 
 export default function AppRouter() {
     return (
         <BrowserRouter> 
             <Routes>
-                <Route path="/" element={<LoginPage />} />
-                <Route path="/HomePage" element={<HomePage />}/>
+                <Route path="/" element={<PaginaPrincipal />} />
+                <Route path="/PaginaConta" element={<PaginaConta />}/>
+                <Route path="/PaginaConta/Deposito" element={<Deposito />}/>
             </Routes>
         </BrowserRouter>
     )

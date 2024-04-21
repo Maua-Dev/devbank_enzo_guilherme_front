@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(3, 62, 121, 0.25);
+    height: fit-content;
+    height: 14vh;
+    align-items: center;
+    top: 0;
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(11, 41, 70, 0.925);
+    width: fit-content;
+    width: 16vw;
+    border-radius: 10px;
+    color: rgba(0, 115, 230, 1);
+    font-size: 1vw;
+    padding: 12px;
+    margin-left: 1600px;
+}
+
+.img {
+    margin-top: 800px;
+    margin-left: 10px;
+    width: 400px;
+}
