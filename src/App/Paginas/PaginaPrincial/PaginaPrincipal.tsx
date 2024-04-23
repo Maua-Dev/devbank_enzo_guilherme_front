@@ -1,31 +1,24 @@
 // import { FormEvent } from "react";
 import { useContext, useState } from "react";
 import "../PaginaPrincial/PaginaPrincipal.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { ApiContext } from "../../Context/api-context";
 
 export default function HomePage() {
   const [inputValue, setInputValue] = useState("");
 
-  const { setApi, api } = useContext(ApiContext)
+  const navigate = useNavigate();
 
-  console.log(api)
-  
+  const { setApi, api } = useContext(ApiContext);
 
-  const ButtonLink = () => {
-    console.log(inputValue.trim())
+  console.log(api);
+
+  const handleClick = () => {
+    console.log(inputValue.trim());
     if (inputValue.trim() !== "") {
       setApi(inputValue);
-      console.log(api)
-      return (
-        <Link className="link" to="/PaginaConta">
-          <button className="btn" type="submit">
-            Entrar
-          </button>
-        </Link>
-      );
-    } else {
-      return <button className="btn">Entrar</button>;
+      console.log(api);
+      navigate("/PaginaConta");
     }
   };
 
@@ -45,7 +38,9 @@ export default function HomePage() {
             placeholder="Coloque aqui o endpoint da sua API"
             onChange={(event) => setInputValue(event.target.value)}
           ></input>
-          <ButtonLink></ButtonLink>
+          <button className="btn" type="submit" onClick={handleClick}>
+            Entrar
+          </button>
         </form>
       </div>
     </main>
