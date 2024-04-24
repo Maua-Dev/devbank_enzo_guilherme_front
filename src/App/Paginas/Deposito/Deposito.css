@@ -19,13 +19,6 @@
     align-items: center;
 }
 
-.left_text {
-    margin: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-}
-
 .deposit_top_box {
     background-color: rgba(0, 115, 230, 0.25);
     width: 1312px;
@@ -34,18 +27,24 @@
     position: absolute;
     top: 140px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    align-items: column;
 
 }
 
-.deposit_right_text{
-    background-color: rgba(0, 115, 230, 0.25);
-    width: 1312px;
-    height: 102px;
-    border-radius: 10px;
-    position: absolute;
-    top: 140px;
+.top_text {
+    padding: 10px;
+    padding-left: 35px;
+    font-size: 20px;
+    width: 50%;
+    font-weight: bold;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+
+.left {
+    background-color: rgb(24, 98, 159);
+    border-radius: 0px 20px 20px 0px;
 }
