@@ -48,3 +48,16 @@
     background-color: rgb(24, 98, 159);
     border-radius: 0px 20px 20px 0px;
 }
+
+.usage_explanation {
+    color: black;
+    font-size: 25px;
+    padding: 25%;
+
+}
+
+.usage_position {
+    position: absolute;
+    top: 180px;
+    left: -120px;
+}
