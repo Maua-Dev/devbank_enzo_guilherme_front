@@ -29,6 +29,12 @@ const defaultApiContextType: ApiContextType = {
 
 export const ApiContext = createContext<ApiContextType>(defaultApiContextType);
 
+export type TransactionContextType = {
+  type : string;
+  value : number;
+  current_balance: number;
+  timestamp: number;
+}
 export const ApiProvider = ({ children }: { children: ReactNode }) => {
   const [api, setApi] = useState<string>("");
   const [name, setName] = useState<string>("");
