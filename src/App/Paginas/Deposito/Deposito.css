@@ -61,3 +61,209 @@
     top: 180px;
     left: -120px;
 }
+
+.deposit_values {
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smaller {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    position: absolute;
+    top: -160px;
+    left: -600px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    position:absolute;
+    top: 30px;
+    left: -470px;
+}
+
+.button2_1 {
+    position:absolute;
+    top: 30px;
+    left: -380px;
+}
+
+.box5 {
+    position: absolute;
+    top: -160px;
+    left: -200px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button5 {
+    position:absolute;
+    top: 30px;
+    left: -70px;
+}
+
+.button5_1 {
+    position:absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.box10 {
+    position: absolute;
+    top: -160px;
+    left: 200px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button10 {
+    position:absolute;
+    top: 30px;
+    left: 330px;
+}
+
+.button10_1 {
+    position:absolute;
+    top: 30px;
+    left: 420px;
+}
+
+.box20 {
+    position: absolute;
+    top: -160px;
+    left: 600px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button20 {
+    position:absolute;
+    top: 30px;
+    left: 730px;
+}
+
+.button20_1 {
+    position:absolute;
+    top: 30px;
+    left: 820px;
+}
+
+
+.box50 {
+    position: absolute;
+    top: 170px;
+    left: -600px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button50 {
+    position:absolute;
+    top: 360px;
+    left: -470px;
+}
+
+.button50_1 {
+    position:absolute;
+    top: 360px;
+    left: -380px;
+}
+
+.box100 {
+    position: absolute;
+    top: 170px;
+    left: -200px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button100 {
+    position:absolute;
+    top: 360px;
+    left: -70px;
+}
+
+.button100_1 {
+    position:absolute;
+    top: 360px;
+    left: 20px;
+}
+
+
+.box200 {
+    position: absolute;
+    top: 170px;
+    left: 200px;
+    color: #020e18;
+    background-color: rgb(79, 202, 243);
+    padding: 60px;
+    width: 280px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px rgba(0, 217, 255, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button200 {
+    position:absolute;
+    top: 360px;
+    left: 330px;
+}
+
+.button200_1 {
+    position:absolute;
+    top: 360px;
+    left: 420px;
+}
