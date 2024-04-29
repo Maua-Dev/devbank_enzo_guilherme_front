@@ -16,7 +16,7 @@ export default function DepositPage() {
   const [notas200, setnotas200] = useState(0);
 
   const requestapi = async () => {
-    const response = await axios.post(api + "/deposit", {
+    const response = await axios.post(api + "/withdraw", {
       "2": notas2,
       "5": notas5,
       "10": notas10,
